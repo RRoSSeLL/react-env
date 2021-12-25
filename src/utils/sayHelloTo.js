@@ -1,0 +1,1 @@
+export const sayHelloTo = name => `Hello ${name ?? 'World'}!`;

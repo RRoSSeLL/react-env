@@ -1,0 +1,22 @@
+{
+  "baseUrl": "http://127.0.0.1:9000/",
+  "viewportHeight": 660,
+  "viewportWidth": 1000,
+  "scrollBehavior": "center",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "reports/individual_reports",
+    "reportFilename": "e2e"
+  },
+  "numTestsKeptInMemory": 10,
+  "component": {
+    "componentFolder": "src",
+    "testFiles": "**/*spec.{js,jsx,ts,tsx}",
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "reportDir": "reports/individual_reports",
+      "reportFilename": "component"
+    }
+  },
+  "video": false
+}
