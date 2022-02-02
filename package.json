@@ -59,7 +59,7 @@
     "mocha": "^9.1.3",
     "mochawesome": "^7.0.1",
     "mochawesome-merge": "^4.2.1",
-    "resolve-url-loader": "^4.0.0",
+    "resolve-url-loader": "^5.0.0",
     "sass": "^1.45.1",
     "sass-loader": "^12.4.0",
     "start-server-and-test": "^1.14.0",
